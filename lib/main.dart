@@ -1,4 +1,5 @@
 import 'package:dark_and_light_mode/data/bottom_nav_ind.dart';
+import 'package:dark_and_light_mode/view/pages/welcome_page.dart';
 import 'package:dark_and_light_mode/view/widget_tree.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
             ),
 
           ),
-          home: WidgetTree(),
+          home: WelcomePage(),
         );
       }
     );
